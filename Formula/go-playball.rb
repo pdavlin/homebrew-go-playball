@@ -1,26 +1,26 @@
 class GoPlayball < Formula
   desc "Terminal-based MLB game viewer"
   homepage "https://github.com/pdavlin/go-playball"
-  version "1.0.0-rc.1"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pdavlin/go-playball/releases/download/v1.0.0-rc.1/go-playball_darwin_arm64.tar.gz"
-      sha256 "34452f8270401589ace10e3ec1156c906a9fa35d3246e98c30bab0b73b17aeb4"
+      url "https://github.com/pdavlin/go-playball/releases/download/v1.0.0/go-playball_darwin_arm64.tar.gz"
+      sha256 "48b50c95f07ad96dc4cce3ecff3453bbcbb2887316a314a5a22fa2dc002cca45"
     else
-      url "https://github.com/pdavlin/go-playball/releases/download/v1.0.0-rc.1/go-playball_darwin_amd64.tar.gz"
-      sha256 "b24b9145fcf1dbb4ce711e788dc887649733704f1572f2005a1c710abc765fdd"
+      url "https://github.com/pdavlin/go-playball/releases/download/v1.0.0/go-playball_darwin_amd64.tar.gz"
+      sha256 "3c433507aa801567e9db78ff77f43e33cf2a664710ad3c44a3a622184bd91ca8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pdavlin/go-playball/releases/download/v1.0.0-rc.1/go-playball_linux_arm64.tar.gz"
-      sha256 "0862b54d01f4b617946057f9f64a37c7aecd7ce3b9690d3d61ae52152f0fe6fc"
+      url "https://github.com/pdavlin/go-playball/releases/download/v1.0.0/go-playball_linux_arm64.tar.gz"
+      sha256 "57ed1b39912c927283c6e8d11ff36f6474aa270a8631e57eea3d14b55269996b"
     else
-      url "https://github.com/pdavlin/go-playball/releases/download/v1.0.0-rc.1/go-playball_linux_amd64.tar.gz"
-      sha256 "f34b359aed0d41afefa71eb49b1d4b52f1204c1d59bb9df96df9e6ca7d344705"
+      url "https://github.com/pdavlin/go-playball/releases/download/v1.0.0/go-playball_linux_amd64.tar.gz"
+      sha256 "d0f3cee8a76cfa023ff73966c34624900032b01b8c628928ec6454c19dc448ca"
     end
   end
 
